@@ -33,3 +33,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1
 ```
 
 构建使用 Windows .NET Framework 的 C# 编译器，输出到仓库根目录的 `EOpen.exe`。随仓库提供的 QRCoder 1.6.0（net40）负责在本地生成二维码，其许可见 [QRCoder-LICENSE.txt](QRCoder-LICENSE.txt)。
+
+## 许可证
+
+EOpen 使用 [MIT License](LICENSE)。第三方组件 QRCoder 的版权声明和许可见 [QRCoder-LICENSE.txt](QRCoder-LICENSE.txt)。
